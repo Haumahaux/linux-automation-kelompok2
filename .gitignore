@@ -1,0 +1,3 @@
+disk-monitor/logs/*
+!disk-monitor/logs/.gitkeep
+disk-monitor/config/disk_monitor.conf
