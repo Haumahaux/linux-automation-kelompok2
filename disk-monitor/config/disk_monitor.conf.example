@@ -1,0 +1,5 @@
+# Contoh konfigurasi Disk Monitor
+# Salin menjadi disk_monitor.conf, lalu sesuaikan.
+THRESHOLD=80
+TARGET_PATH=/
+LOG_FILE=logs/disk_monitor.log
