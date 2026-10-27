@@ -1,0 +1,4 @@
+[2026-10-27 12:59:22] [INFO] Pemeriksaan dimulai (path=/, ambang=100)
+[2026-10-27 12:59:22] [INFO] Penggunaan 1% < ambang 100% pada /
+[2026-10-27 12:59:22] [INFO] Pemeriksaan dimulai (path=/, ambang=1)
+[2026-10-27 12:59:22] [WARNING] Penggunaan 1% >= ambang 1% pada /
