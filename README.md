@@ -1,4 +1,4 @@
-# Proyek 2: Otomasi dan Container Linux
+# Otomasi dan Container Linux
 
 ## Modul: Disk Monitor
 Script shell untuk memeriksa penggunaan disk dengan `df`, membandingkannya dengan ambang batas persentase, menampilkan status NORMAL atau PERINGATAN, dan mencatat hasilnya ke log.
@@ -60,3 +60,13 @@ disk-monitor/
 ├── docs/
 └── logs/
 ```
+
+## Kontribusi anggota
+| Anggota | Nama | Peran | Kontribusi |
+|---|---|---|---|
+| 1 | Raihan | Inti script | `disk_monitor.sh`, `lib/core.sh`: pembacaan df, penentuan status, exit status |
+| 2 | Allisya Eka Nur | Validasi, log, konfigurasi | `lib/validation.sh`, `lib/logging.sh`, `config/`: validasi input, log, error handling |
+| 3 | Malva Nurul Fitria | Pengujian | `tests/run_tests.sh`, `docs/`: 5 test case, log berhasil dan gagal, interpretasi |
+| 4 | Denzel Immanuel Marpaung | Repository dan dokumentasi | Setup repository, `README.md`, review, tag rilis, pengumpulan |
+
+Jumlah commit tiap anggota dapat dilihat dengan `git shortlog -sn --all`.
